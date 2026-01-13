@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Games Collection</h1>
+            <p>Play fun games on any device!</p>
+        </header>
+        
+        <main id="game-container">
+            <!-- Main menu will be displayed here -->
+            <div id="main-menu" class="menu">
+                <h2>Select a Game</h2>
+                <div class="game-buttons">
+                    <button class="game-btn" data-game="guessing">🔢 Number Guessing Game</button>
+                    <button class="game-btn" data-game="rps">✊✋✌️ Rock Paper Scissors</button>
+                    <button class="game-btn" data-game="tictactoe">❌⭕ Tic Tac Toe</button>
+                    <button class="game-btn" data-game="hangman"> gallows Hangman</button>
+                </div>
+            </div>
+            
+            <!-- Individual game areas will be loaded here -->
+            <div id="game-area" style="display: none;"></div>
+        </main>
+        
+        <footer>
+            <p>Made with ❤️ - Play on any device!</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

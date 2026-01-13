@@ -1,6 +1,6 @@
-# Games Collection
+# Web Games Collection
 
-A collection of smart console games built with Python that work across all devices.
+A collection of smart web-based games that work on all devices (computers, tablets, and smartphones) through any web browser.
 
 ## Games Included
 
@@ -11,23 +11,25 @@ A collection of smart console games built with Python that work across all devic
 
 ## Features
 
-- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux
+- **Cross-Device Compatibility**: Works on computers, tablets, and smartphones via web browser
+- **Responsive Design**: Adapts to different screen sizes and orientations
 - **Smart AI**: Advanced algorithms in Tic Tac Toe (minimax) and Rock Paper Scissors (pattern recognition)
 - **Adaptive Difficulty**: Games adjust based on word length or player performance
 - **Progress Tracking**: Hangman shows completion percentage, Rock Paper Scissors calculates win rates
 - **Intelligent Hints**: Games provide helpful feedback based on your progress
-- **User-Friendly Interface**: Clear instructions and intuitive navigation
+- **User-Friendly Interface**: Clean design with intuitive navigation
 - **Emoji-enhanced Feedback**: Visual indicators for better user experience
-
-## Requirements
-
-- Python 3.x
 
 ## How to Run
 
-```bash
-python3 games.py
-```
+To run the web games collection:
+
+1. Simply open `index.html` in any web browser
+2. Or serve the files through a web server:
+   ```bash
+   python3 -m http.server 8000
+   ```
+   Then visit `http://localhost:8000` in your browser
 
 ## Smart Features Explained
 

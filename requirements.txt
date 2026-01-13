@@ -1,2 +1,2 @@
-# No external dependencies needed for this games collection
-# Only uses Python standard library
+# Web Games Collection
+# No external dependencies needed - only using Python standard library for the web server
